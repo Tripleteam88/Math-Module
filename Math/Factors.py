@@ -61,6 +61,16 @@ def gcf(x, y):
     print(f"The greatest common factor of {x} and {y} is {cfLis[-1]}")
     return int(cfLis[-1])
 
+x = int(input("Hello master adam, what number do you want to factor?: "))
+
+find_factors(x, xList)
+
+h = input("Anything else master?: ")
+if h == 'no':
+    print("good day")
+elif h != 'no':
+    while True:
+        k = input("What else would you like")
 
 #This is a first attempt at catching errors and raising exceptions
 '''
